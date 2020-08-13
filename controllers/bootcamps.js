@@ -7,14 +7,14 @@ exports.getBootcamps = (req, res, next) => {
 //description: Get a bootcamp 
 //route: Get /api/v1/bootcamps/1
 //access: public 
-exports.getBootcamp = (req, res, next) {
-    res.status(200).json({success: true, msg: 'Show bootcamp'})
+exports.getBootcamp = (req, res, next) => {
+    res.status(200).json({success: true, msg: 'Show a bootcamp'})
 }
 
 //description: Create new bootcamp
 //route: Post /api/v1/bootcamps 
 //access: private 
-exports.createBootcamp = (req, res, next) {
+exports.createBootcamp = (req, res, next) => {
     res.status(200).json({success: true, msg: 'Create a bootcamp'})
 }
 
