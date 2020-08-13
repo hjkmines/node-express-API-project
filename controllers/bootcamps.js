@@ -2,7 +2,7 @@
 //route: Get /api/v1/bootcamps 
 //access: Public 
 exports.getBootcamps = (req, res, next) => {
-    res.status(200).json({success: true, msg: 'Show all bootcamps'})
+    res.status(200).json({success: true, msg: 'Show all bootcamps', hello: req.hello})
 }
 //description: Get a bootcamp 
 //route: Get /api/v1/bootcamps/1

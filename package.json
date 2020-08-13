@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node server", 
+    "start": "NODE_ENV=production node server",
     "dev": "nodemon server"
   },
   "repository": {
@@ -20,7 +20,9 @@
   "homepage": "https://github.com/hjkmines/node-project#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
